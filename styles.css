@@ -1,0 +1,977 @@
+body{
+    background-color: rgb(87, 87, 87);
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    color: rgb(248, 247, 247);
+}
+header{
+    text-align: center;
+    font-size: 3vw;
+    background-repeat: no-repeat;
+    background-image: url('img/back11.jpg');
+    background-size: cover;
+    margin: 0;
+    padding-bottom: 0;
+    padding-top: 5px;
+}
+header h1{
+    margin-bottom: 0;
+}
+header p{
+    color: rgb(204, 204, 204);
+    margin: 0;
+    padding:0;
+    display: inline-block;
+    width: 69%;
+    padding-top:30px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-weight: bold;
+    filter: drop-shadow( 0 0 0.1vw rgb(167, 157, 138));
+}
+#home{
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+    text-shadow: 2px 2px #444444;
+    filter: drop-shadow( 0 0 0.1vw rgb(167, 157, 138));
+}
+.main_section{
+    width: 100%;
+    text-align: center;
+}
+.main_article{
+    display: inline-block;
+    background-color: white;
+    width: 20vw;
+    height: 20vw;
+    margin:2%;
+    margin-top:3%;
+    margin-bottom: 0;
+    vertical-align: top;
+    position: relative;
+    padding:0;
+    transition: .4s;
+}
+#main_page div{
+    width: 20vw;
+    height: 6vw;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 7vw;
+}
+#main_page article:hover{
+    opacity: 0.7;
+    transform: scale(1.03);
+    filter: contrast(120%);
+    filter: drop-shadow( 0 0 0.5vw rgb(167, 157, 138));
+}
+#main_page article a:hover{
+    color:white;
+}
+#main_page article a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 3vw;
+    display: block;
+    padding-top: 1vw;
+    padding-bottom: 8vw;
+    text-shadow: 3px 3px #000000;
+}
+#tattoo{
+    background-image: url('img/tattoo.jpg');
+    background-size: cover;
+}
+#piercing_main{
+    background-image: url('img/piercing.jpg');
+    background-size: cover;
+}
+#gallery{
+    background-image: url('img/gallery.jpg');
+    background-size: cover;
+}
+#contact{
+    background-image: url('img/contact.jpg');
+    background-size: cover;
+}
+#pricing{
+    background-image: url('img/pricing.jpg');
+    background-size: cover;
+}
+#me{
+    background-image: url('img/me.jpg');
+    background-size: cover;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 0;
+}
+footer a{
+    color: rgb(146, 146, 146);
+    font-size: 1.2vw;
+    margin-top: 20px;
+}
+#section_about_me {
+    padding-left: 10%;
+    margin-top: 5%;
+}
+#description_about_me{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    opacity: 0.8;
+    font-size: 1.5vw;
+    width: 40vw;
+    height: 35vw;
+    text-align: justify;
+    display: inline-block;
+    background-image: url("img/backkk.jpg");
+    background-size: cover;
+}
+#description_about_me p{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    line-height: 2.8vw;
+    text-shadow: 1px 1px rgb(63, 63, 63);
+}
+#description_about_me h2{
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 1.5vw;
+    text-shadow: 1px 1px #535353;
+}
+#photo_about_me{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 3vw;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-color: rgb(24, 23, 23);
+    width: 34vw;
+    height: 34vw;
+}
+#photo_about_me img{
+    width: 34vw;
+    height: 34vw;
+}
+#contact_section{
+    text-align: center;
+    width: 100%;
+    padding-top: 5vw;
+}
+#contact_section article{
+    display: inline-block;
+    width: 35vw;
+    height: 35vw;
+    margin:1%;
+    margin-top:2%;
+    margin-bottom: 0.7vw;
+    vertical-align: top;
+    padding:0;
+    background-color: rgb(48, 43, 36);
+}
+#contact_jeden{
+    opacity: 0.8;
+    border: rgb(48, 43, 36);
+    border-style: solid;
+    border-width: 1vw;
+    width: 33vw;
+    height: 33vw;
+}
+#contact_jeden h2{
+    font-size: 4vw;
+    display: block;
+    text-shadow: 2px 2px rgb(63, 63, 63);
+}
+#contact_jeden ul{
+    list-style-type:circle;
+    text-align: center;
+    font-size: 1.8vw;
+    font-weight: bold;
+    list-style: none;
+    padding: 0;
+}
+#contact_jeden ul li{
+    padding-bottom: 3vw;
+}
+#contact_jeden ul a{
+    text-decoration: none;
+    color: white;
+}
+#contact_form{
+    opacity: 0.9;
+}
+#contact_form p{
+    font-size: 2.3vw;
+    text-align: center;
+    text-shadow: 1px 1px rgb(97, 97, 97);
+}
+#contact_form label{
+    display: inline-block;
+    font-size: 1.5vw;
+    text-shadow: 1px 1px rgb(97, 97, 97);
+}
+#contact_quest{
+    vertical-align: top;
+    margin-top: 0.5vw;
+}
+#contact_info input {
+    border: none;
+    border-bottom: 1px solid rgb(192, 211, 203);
+    outline: none;
+    background: transparent;
+    padding: 0.03vw;
+    width: 15vw;
+    margin-bottom: 2.4vw;
+    margin-left:0;
+    color: rgb(160, 159, 159);
+}
+#contact_form textarea{
+    border: 1px solid rgb(192, 211, 203);
+    outline: none;
+    background: transparent;
+    padding: 0.2vw;
+    width: 25vw;
+    height: 4vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    color: rgb(160, 159, 159);
+}
+#contact_button {
+    padding: 0.7vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgb(192, 211, 203);
+    margin-top: 0;
+    color: white;
+    background: transparent;
+}
+#contact_button:hover {
+    box-shadow: 0px 0px 9px rgb(164, 190, 176);
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 6px;
+    padding-left: 1.4vw;
+}
+.column {
+    flex: 33%;
+    max-width: 32%;
+    padding: 0.5vw;
+}
+.column img {
+    margin-top: 1vw;
+    width: 100%;
+    transition: .4s;
+    z-index: 1;
+}
+#main_page img:hover{
+    transform: scale(1.09);
+    filter: contrast(103%);
+    filter: drop-shadow( 0 0 0.5vw rgb(100, 96, 83));
+}
+#piercing_section{
+    width: 100%;
+    text-align: center;
+}
+#piercing_section article{
+    display: inline-block;
+    width: 35vw;
+    height: 35vw;
+    margin:1%;
+    margin-top:2%;
+    margin-bottom: 0.7vw;
+    vertical-align: top;
+    position: relative;
+    padding:0;
+    line-height: 2.7vw;
+}
+#piercing{
+    background-color: black;
+    text-align: justify;
+    opacity: 0.8;
+}
+#piercing p{
+    text-indent: 10%;
+    margin: 2vw;
+    font-size: 1.4vw;
+    font-weight: bolder;
+    line-height: 2.37vw;
+}
+#piercing2{
+    background-image: url('img/piercing2.jpg');
+    background-size: cover;
+    width: 35vw;
+    height: 35vw;
+    transition: 0.3s;
+    z-index: 1;
+}
+#piercing2:hover{
+    transform: scale(1.3);
+    filter: drop-shadow( 0 0 0.7vw rgb(139, 133, 121));
+}
+#piercing_section2{
+    width: 100%;
+    text-align: center;
+}
+#piercing_section2 article {
+    display: inline-block;
+    width: 35vw;
+    height: 35vw;
+    margin:1%;
+    margin-top:2%;
+    margin-bottom: 0;
+    vertical-align: top;
+    position: relative;
+    padding:0;
+    line-height: 2.8vw;
+    opacity: 0.9;
+}
+#piercing_section2 h2{
+    color: rgb(0, 0, 0);
+    font-size: 4vw;
+    display: block;
+    text-shadow: 2px 2px rgb(224, 223, 223);
+    padding-top: 1vw;
+    padding-bottom: 3vw;
+    font-weight: bolder;
+    padding-bottom: 0;
+}
+#piercing3{
+    background-color: rgb(223, 211, 187);
+    color: black;
+}
+#piercing4{
+    background-image: url('img/piercing3.jpg');
+    background-size: cover;
+}
+#piercing_section2 ul{
+    list-style-type:circle;
+    text-align: left;
+    padding-left: 5vw;
+    padding-right: 4vw;
+    font-size: 1.5vw;
+    font-weight: bolder;
+}
+#pricing_table {
+    margin-left: 26vw;
+    width: 45vw;
+    border-collapse: collapse;
+    margin-top: 4vw;
+    background-color: #141311;
+    opacity: 0.9;
+}
+#pricing_table th{
+    font-size: 1.6vw;
+    padding: 1vw;
+    text-align: left;
+}
+#pricing_table td{
+    font-size: 1.4vw;
+    padding: 1vw;
+}
+#pricing_table thead {
+    background-color: #080808;
+}
+#pricing_table tbody td:hover {
+    background-color: rgba(146, 136, 136, 0.2);
+}
+#pricing_section{
+    text-align: center;
+    width: 45vw;
+    color: rgb(197, 184, 171);
+    margin-left: 26vw;
+    font-size: 2vw;
+    margin-top: 2vw;
+    margin-bottom: 4vw;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    background-color: #141311;
+    opacity: 0.9;
+    text-shadow: 1px 1px rgb(54, 54, 54);
+}
+#tattoo_section, #tattoo_section2{
+    width: 100%;
+    text-align: center;
+}
+#tattoo_section2 article{
+    height: 16vw;
+    width: 16.2vw;
+    opacity: 0.9;
+}
+#tattoo_section2 p{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    font-size: 2vw;
+    margin: 0;
+}
+#tattoo_section article{
+    display: inline-block;
+    background-color: white;
+    width: 35vw;
+    height: 35vw;
+    margin:1%;
+    margin-top:2%;
+    margin-bottom: 0;
+    vertical-align: top;
+    position: relative;
+    padding:0;
+    line-height: 2.8vw;
+}
+#tattoo_section2 article{
+    display: inline-block;
+    background-color: white;
+    margin:1%;
+    margin-top:2%;
+    margin-bottom: 0;
+    vertical-align: top;
+    position: relative;
+    padding:0;
+    line-height: 2.8vw;
+}
+#tattoo1{
+    background-image: url('img/tattoo1.jpg');
+    background-size: cover;
+    opacity: 0.9;
+}
+#tattoo2{
+    color: black;
+    text-align: justify;
+    opacity: 0.8;
+    font-weight: bold;
+
+}
+#tattoo2 p{
+    text-indent: 10%;
+    margin: 2vw;
+    font-size: 1.3vw;
+}
+#zodiak{
+    background-image: url('img/zodiak.jpg');
+    background-size: cover;
+}
+#zodiak2{
+    background-color:rgb(168, 187, 178);
+    text-shadow: 2px 2px rgb(160, 159, 159);
+    transition:0.6s;
+}
+#zodiak2 a{
+    text-decoration: none;
+    color: black;
+}
+#zodiak2:hover{
+    opacity: 0.7;
+    transform: scale(1.15);
+    filter: contrast(103%);
+    filter: drop-shadow( 0 0 0.5vw rgb(167, 157, 138));
+}
+#nature{
+    background-image: url('img/nature.jpg');
+    background-size: cover;
+    opacity: 0.9;
+}
+#nature2{
+    background-color:rgb(192, 186, 175);
+    text-shadow: 2px 2px rgb(160, 159, 159);
+    text-decoration: none;
+    color: black;
+    transition:0.6s;
+}
+#nature2 a{
+    text-decoration: none;
+    color: black;
+}
+#nature2:hover{
+    opacity: 0.7;
+    transform: scale(1.15);
+    filter: contrast(103%);
+    filter: drop-shadow( 0 0 0.5vw rgb(167, 157, 138));
+}
+#tattoo_section article a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(230, 252, 238);
+    font-size: 3vw;
+    display: block;
+    padding-top: 8vw;
+    text-shadow: 3px 3px #252424;
+}
+
+@media all and (max-width: 800px) {
+    body{
+        background-size: contain;
+   }
+    header{
+        font-size: 5vw;
+        background-color:black;
+        background-image: none;
+        padding-bottom: 3vw;
+   }
+    header h1{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        padding-top: 8vw;
+        padding-left: 5%;
+   }
+    header p{
+        width: 100%;
+        text-align: center;
+        font-size: 6vw;
+        padding:0;
+        margin:0;
+        margin-top: 3vw;
+        margin-bottom: 1vw;
+        font-weight: bolder;
+   }
+    header a{
+        text-align: center;
+        font-size: 14vw;
+        padding:0;
+        margin-top:0;
+        margin-right:7vw;
+   }
+    #main_page article{
+        display: block;
+        margin-left: 17.5vw;
+        margin-top: 8vw;
+        width: 65vw;
+        height: 65vw;
+   }
+    #main_page article a{
+        font-size: 9vw;
+        padding-top: 4vw;
+        padding-bottom: 32vw;
+        
+   }
+   #main_page div{
+    width: 65vw;
+    height: 20vw;
+    display: inline-block;
+    margin-top: 24vw;
+    }
+
+    footer a{
+        font-size: 3vw;
+   }
+
+    #section_about_me{
+        padding-left: 17.5vw;
+    }
+    #description_about_me{
+        display: block;
+        width: 61vw;
+        height: 115vw;
+        margin-top: 6vw;
+        padding-right: 2vw;
+        padding-left: 2vw;
+    }
+    #description_about_me p{
+        font-size: 3.5vw;
+        padding: 1vw;
+        line-height: 6.5vw;
+    }
+    #description_about_me h2{
+        font-size: 6vw;
+        padding-top: 5vw;
+    }
+    #photo_about_me{
+        display: block;
+        width: 65vw;
+        height: 65vw;
+        margin-top: 6vw;
+        margin-left: 0;
+    }
+    #photo_about_me img{
+        width: 65vw;
+        height: 65vw;
+    }
+    #contact_section article{
+        display: block;
+        width: 75vw;
+        height: 75vw;
+        margin-left: 12.5vw;
+        margin-top: 7vw;
+   }
+    #contact_jeden{
+        width: 72.7vw;
+        height: 72.7vw;
+   }
+    #contact_jeden h2{
+        font-size: 6.5vw;
+        padding-top: 2vw;
+   }
+    #contact_jeden ul {
+        font-size:3.5vw;
+        line-height: 8.5vw;
+   }
+    #contact_jerden li{
+        margin-left:1vw;
+        margin-right:1vw;
+   }
+    #contact_form{
+        height: 100vw;
+   }
+   #contact_form label{
+       font-size: 4vw;
+   }
+   #contact_quest{
+       padding-top: 4vw;
+       padding-right: 3vw;
+   }
+    #contact_form textarea{
+        margin-top: 6vw;
+        width: 60%;
+        height: 5vw;
+   }
+    #contact_form p{
+        font-size: 6.8vw;
+        padding-top: 1vw;
+        margin-bottom: 0px;
+   }
+    #contact_info{
+        height: 50vw;
+        margin-bottom: 0vw;
+        margin-top: 0;
+   }
+    #contact_info input{
+        margin-left: 2vw;
+        padding: 0;
+        width: 60%;
+        margin-top: 6vw;
+   }
+    #contact_button{
+        padding: 1.5vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+   }
+   .column{
+    flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    padding-left: 6vw;
+    padding-right: 6vw;
+}
+#piercing_section article{
+    display: block;
+    width: 65vw;
+    height: 65vw;
+    margin-left: 17.5vw;
+    margin-top: 7vw;
+}
+#piercing_section article p{
+    font-size: 3.9vw;
+    padding: 1vw;
+    line-height: 3.5vw;
+}
+#piercing_section2 article{
+    display: block;
+    width: 65vw;
+    height: 65vw;
+    margin-left: 17.5vw;
+    margin-top: 7vw;
+}
+#piercing_section2 h2{
+    font-size: 9vw;
+    padding:6vw;
+    padding-bottom: 0;
+}
+#piercing_section2 ul{
+    font-size:4vw;
+    line-height: 5vw;
+    margin-left:4vw;
+    padding-top:0;
+    margin-top: 0;
+}
+#pricing_table{
+    width: 70%;
+    height: 80vw;
+    margin:0;
+    padding:0;
+    margin-left: 15%;
+    margin-top: 5vw;
+}
+#pricing_table th{
+    font-size: 3.5vw;
+    padding: 1.5vw;
+    text-align: left;
+}
+#pricing_table td{
+    font-size: 3vw;
+    padding: 1.5vw;
+    padding-left: 2.4vw;
+}
+#pricing_section{
+    width: 70%;
+    margin-left: 15%;
+    font-size: 4vw;
+    margin-top: 6vw;
+    margin-bottom: 6vw;
+}
+
+#tattoo_section article{
+    display: block;
+    margin-left: 17.5vw;
+    margin-top: 6vw;
+    width: 65vw;
+    height: 65vw;
+}
+
+#tattoo_section article p{
+    font-size: 3.5vw;
+    padding: 1vw;
+    line-height: 4vw;
+}
+#tattoo_section2 article{
+    display: block;
+    height: 65vw;
+    width: 65vw;
+    margin-left: 17.5vw;
+    margin-top: 6vw;
+}
+#tattoo_section2 p{
+    font-size: 10vw;
+    padding-top: 19vw;
+    line-height: 17vw;
+    padding-bottom: 20vw;
+}
+
+}
+@media all and (max-width: 500px) {
+    body{
+        background-size: contain;
+   }
+    header{
+        font-size: 5vw;
+        background-color:black;
+        background-image: none;
+        padding-bottom: 3vw;
+   }
+    header h1{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        padding-top: 8vw;
+        padding-left: 7%;
+   }
+    header p{
+        width: 100%;
+        text-align: center;
+        font-size: 6vw;
+        padding:0;
+        margin:0;
+        margin-top: 3vw;
+        margin-bottom: 2vw;
+        font-weight: bolder;
+   }
+    header a{
+        text-align: center;
+        font-size: 14vw;
+        padding:0;
+        margin-top:0;
+        margin-right:7vw;
+   }
+    #main_page article{
+        display: block;
+        margin-left: 14.5vw;
+        margin-top: 8vw;
+        width: 72vw;
+        height: 72vw;
+   }
+    #main_page article a{
+        font-size: 10vw;
+        padding-top: 4vw;
+        padding-bottom: 32vw;
+   }
+   #main_page div{
+       width: 72vw;
+       height: 20vw;
+       display: inline-block;
+       margin-top: 26vw;
+   }
+    footer a{
+        font-size: 5vw;
+   }
+    #section_about_me{
+        padding-left: 11vw;
+    }
+    #description_about_me{
+        display: block;
+        width: 71vw;
+        height: 125vw;
+        margin-top: 6vw;
+        padding-right: 2vw;
+        padding-left: 2vw;
+    }
+    #description_about_me p{
+        font-size: 4.6vw;
+        padding: 1vw;
+        line-height: 6.5vw;
+    }
+    #description_about_me h2{
+        font-size: 7vw;
+        padding-top: 4vw;
+    }
+    #photo_about_me{
+        display: block;
+        width: 75vw;
+        height: 75vw;
+        margin-top: 6vw;
+        margin-left: 2vw;
+    }
+    #photo_about_me img{
+        width: 75vw;
+        height: 75vw;
+    }
+    #contact_section article{
+        display: block;
+        width: 75vw;
+        height: 75vw;
+        margin-left: 12.5vw;
+        margin-top: 7vw;
+   }
+    #contact_jeden h2{
+        font-size: 8vw;
+        margin: 0;
+   }
+    #contact_jeden ul {
+        font-size:5vw;
+        line-height: 8vw;
+   }
+    #contact_jeden li{
+        margin-left:1vw;
+        margin-right:1vw;
+        text-shadow: 1px 1px rgb(160, 159, 159);
+   }
+    #contact_form{
+        height: 150vw;
+   }
+    #contact_form label{
+        font-size: 4.5vw;
+    }
+    #contact_quest{
+        padding-top: 0vw;
+        padding-right: 3vw;
+    }
+    #contact_form textarea{
+        margin-top: 2vw;
+        width: 60%;
+        height: 5vw;
+   }
+    #contact_form p{
+        font-size: 6.8vw;
+        padding-top: 0vw 
+   }
+    #contact_info{
+        margin-top: 0;
+        height: 54vw;
+        margin-bottom: 0vw;
+   }
+    #contact_info input{
+        margin-left: 3vw;
+        padding: 0;
+        width: 60%;
+        margin-top: 6vw;
+   }
+    #contact_button{
+        padding: 2vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        margin-right: 11vw;
+   }
+   .column{
+    flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    }
+    #piercing_section article{
+        display: block;
+        width: 75vw;
+        height: 75vw;
+        margin-left: 13vw;
+        margin-top: 7vw;
+   }
+    #piercing_section article p{
+        font-size: 4.6vw;
+        padding: 1vw;
+        line-height: 4vw;
+   }
+    #piercing_section2 article{
+        display: block;
+        width: 75vw;
+        height: 75vw;
+        margin-left: 13vw;
+        margin-top: 7vw;
+   }
+    #piercing_section2 h2{
+        font-size: 10vw;
+        padding:7vw;
+        padding-bottom: 0;
+   }
+    #piercing_section2 ul{
+        font-size:4.5vw;
+        line-height: 6vw;
+        margin-left:4vw;
+        padding-top:0;
+   }
+   #pricing_table{
+    width: 90%;
+    height: 80vw;
+    margin:0;
+    padding:0;
+    margin-left: 5%;
+    margin-top: 5vw;
+}
+#pricing_table th{
+    font-size: 5.5vw;
+    padding: 1.5vw;
+    text-align: left;
+}
+#pricing_table td{
+    font-size: 5.0vw;
+    padding: 1.5vw;
+    padding-left: 2.4vw;
+}
+#pricing_section{
+    width: 90%;
+    margin-left: 5%;
+    font-size: 6vw;
+    margin-top: 6vw;
+    margin-bottom: 6vw;
+}
+#tattoo_section article{
+    display: block;
+    width: 75vw;
+    height: 75vw;
+    margin-left: 12.5vw;
+    margin-top: 6vw;
+}
+#tattoo_section article p{
+    font-size: 4.6vw;
+    padding: 1vw;
+    line-height: 4vw;
+}
+#tattoo_section2 article{
+    display: block;
+    height: 75vw;
+    width: 75vw;
+    margin-left: 12.5vw;
+    margin-top: 6vw;
+}
+#tattoo_section2 p{
+    font-size: 10vw;
+    padding-top: 18vw;
+    line-height: 17vw;
+}
+}
